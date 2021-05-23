@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LivingRoom"
+    android:background="@drawable/bathroom">
+
+    <LinearLayout
+        android:id="@+id/linerlayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_gost"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_gost"
+            android:textColor="@color/colorPrimary"/>
+
+        <ProgressBar
+            android:id="@+id/progress_gost3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"></ProgressBar>
+
+        <TextView
+            android:id="@+id/text_food"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_food"
+            android:textColor="@color/colorPrimary"/>
+
+        <ProgressBar
+            android:id="@+id/progress_food3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:max="100"></ProgressBar>
+
+        <TextView
+            android:id="@+id/text_wash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_wash"
+            android:textColor="@color/colorPrimary"/>
+
+        <ProgressBar
+            android:id="@+id/progress_wash3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"></ProgressBar>
+
+        <TextView
+            android:id="@+id/text_sleep"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_sleep"
+            android:textColor="@color/colorPrimary"/>
+
+        <ProgressBar
+            android:id="@+id/progress_sleep3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/washing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linerlayout2"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerInParent="true"
+        android:text="@string/washing"
+        android:background="@android:color/holo_blue_light"/>
+
+    <LinearLayout
+        android:id="@+id/linerlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:id="@+id/livingroom3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/but_gost" />
+
+        <ImageButton
+            android:id="@+id/kitchen3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/but_kitch" />
+
+        <ImageButton
+            android:id="@+id/bathroom3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/but_bath" />
+
+        <ImageButton
+            android:id="@+id/bedroom3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/but_bed" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/chincha3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/chinchilla"
+        android:layout_above="@id/linerlayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:alpha="0"
+        />
+
+    <ImageView
+        android:id="@+id/chincha_mud"
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:layout_above="@id/linerlayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/chincha_mud" />
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "29189585416",
+    "firebase_url": "https://tamagotchi-6735f-default-rtdb.firebaseio.com",
+    "project_id": "tamagotchi-6735f",
+    "storage_bucket": "tamagotchi-6735f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29189585416:android:d1732aed0ce631e5e92fbd",
+        "android_client_info": {
+          "package_name": "com.example.mychincha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29189585416-g64jlm424flc1ps3pj1dk5vpi4safa5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLQrjrV4xQu3WegWrN1OnLLueuEkRHJ4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29189585416-g64jlm424flc1ps3pj1dk5vpi4safa5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29189585416:android:8e113cbf35a8539ce92fbd",
+        "android_client_info": {
+          "package_name": "com.example.tamagochi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29189585416-g64jlm424flc1ps3pj1dk5vpi4safa5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLQrjrV4xQu3WegWrN1OnLLueuEkRHJ4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29189585416-g64jlm424flc1ps3pj1dk5vpi4safa5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Chincha</string>
+    <string name="gostinai">ГОСТИНАЯ</string>
+    <string name="kitchen">КУХНЯ</string>
+    <string name="bathroom">ВАННАЯ</string>
+    <string name="bedroom">СПАЛЬНАЯ</string>
+    <string name="play">ИГРАТЬ С ПИТОМЦЕМ</string>
+    <string name="food">КОРМИТЬ ПИТОМЦА</string>
+    <string name="washing">ПОМЫТЬ ПИТОМЦА</string>
+    <string name="sleep">УЛОЖИТЬ СПАТЬ</string>
+    <string name="text_gost">Уровень счастья</string>
+    <string name="text_food">Уровень голода</string>
+    <string name="text_wash">Уровень чистоты</string>
+    <string name="text_sleep">Уровень сна</string>
+</resources>
